@@ -1,50 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
-:root{
+:root {
 
     --bg-gray: #E8E8E8;
-    --text-gray:#4A4A4A;
+    --text-gray: #4A4A4A;
     --color-primary: #4D41C0;
     --white: #FFFFFF;
 }
-*{
+
+* {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 
-    margin:0;
+    margin: 0;
 
 }
 
-html, body{
+html,
+body {
 
     background-color: var(--bg-gray);
 }
-header{
+
+header {
 
     background-color: var(--color-primary);
     color: var(--white);
     height: 60px;
     display: flex;
-    
-    
+
+
 
 }
 
 
 
 nav {
-    
-    display:flex;
+
+    display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
 
-nav h1{
+nav h1 {
     font-size: 24px;
     font-weight: 700;
 
@@ -57,59 +65,58 @@ nav a {
 
 }
 
-a, a:hover {
+a,
+a:hover {
     text-decoration: none;
-    color:unset;
+    color: unset;
 }
 
-.dsmovie-contact-container{
-    display:flex;
+.dsmovie-contact-container {
+    display: flex;
     align-items: center;
 
 
 }
 
-.dsmovie-contact-container img{
+.dsmovie-contact-container img {
 
     margin-right: 10px;
 }
 
-#dsmovie-card-list{
-
-    padding:40px 0;
-
+#dsmovie-card-list {
+    padding: 40px 0;
 }
 
-.dsmovie-card{
-width: 360px;
-
-
-
-
+.dsmovie-card {
+    width: 100%;
 }
-.dsmovie-card img{
 
+.dsmovie-card img {
     width: 100%;
     border-radius: 8px 8px 0 0;
 }
 
-.dsmovie-card-description{
-padding: 10px 0 20px 0;
-background-color: var(--white);
+.dsmovie-card-description {
+    padding: 10px 20px 20px 20px;
+    background-color: var(--white);
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     border-radius: 0 0 8px 8px;
+    min-height: 150px;
 }
 
-.dsmovie-card-description h3{
-font-size: 14px;
-font-weight: 700;
+.dsmovie-card-description h3 {
+    font-size: 14px;
+    font-weight: 700;
     margin-bottom: 25px;
+text-align: center;
 
 }
 
-.dsmovie-btn, .dsmovie-btn:hover {
+.dsmovie-btn,
+.dsmovie-btn:hover {
 
     width: 180px;
     height: 40px;
